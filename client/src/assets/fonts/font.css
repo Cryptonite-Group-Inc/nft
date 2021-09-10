@@ -1,0 +1,30 @@
+
+/* font-family: "HelveticaRegular"; */
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("HelveticaRegular/HelveticaRegular.eot");
+    src: url("HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("HelveticaBold/HelveticaBold.eot");
+    src: url("HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+    url("HelveticaBold/HelveticaBold.woff") format("woff"),
+    url("HelveticaBold/HelveticaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "HelveticaItalic"; */
+@font-face {
+    font-family: "HelveticaItalic";
+    src: url("HelveticaItalic/HelveticaItalic.eot");
+    src: url("HelveticaItalic/HelveticaItalic.eot?#iefix")format("embedded-opentype"),
+    url("HelveticaItalic/HelveticaItalic.woff") format("woff"),
+    url("HelveticaItalic/HelveticaItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

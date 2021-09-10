@@ -1,0 +1,3 @@
+export const CONNECT_WALLET = 'CONNECT_WALLET'
+export const INIT_WALLET = 'INIT_WALLET'
+export const UPDATE_ADDRESS = 'UPDATE_ADDRESS'
