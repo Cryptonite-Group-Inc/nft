@@ -80,18 +80,18 @@ const PurchaseModal = (props) => {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Thanks for your interest in Mishkas!
+          Thanks for your interest in Uglys!
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <div className="modal__content modal__content__buy" id="modal__buy-content">
           <p>
-            Hooray! You are one step away from adding Mishkas to your personal collection.
-            The current price for <strong>1 Mishka is {price? `${state.web3.utils.fromWei(price.toString())} ETH`: ``}</strong>. 
-            The price will change based on our pricing tier. There are currently only <strong>{stock? 10000 - stock: ``}</strong> Mishkas available. 
-            You may purchase up to 20 Mishkas per transaction.
+            Hooray! You are one step away from adding Uglys to your personal collection.
+            The current price for <strong>1 Uglya is {price? `${state.web3.utils.fromWei(price.toString())} ETH`: ``}</strong>. 
+            The price will change based on our pricing tier. There are currently only <strong>{stock? 10000 - stock: ``}</strong> Uglys available. 
+            You may purchase up to 20 Uglys per transaction.
           </p>
-          <p className="modal-bold-text">How many Mishkas would you like to buy?</p>
+          <p className="modal-bold-text">How many Uglys would you like to buy?</p>
           <div className="modal__buy__form">
               <div className="modal__buy__form__quantity">
                   <span className="input-number-decrement" onClick={decrease}>–</span>
@@ -110,7 +110,7 @@ const PurchaseModal = (props) => {
         </div>
       </Modal.Body>
       <Modal.Footer>
-        <button type="submit" className="btn-purchase w-100" onClick={onPurchaseClick}>Buy Mishkas</button>
+        <button type="submit" className="btn-purchase w-100" onClick={onPurchaseClick}>Buy Uglys</button>
       </Modal.Footer>
     </Modal>
   )

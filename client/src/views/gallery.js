@@ -34,7 +34,7 @@ const Gallary =  () => {
                   <h1>Coming soon...</h1>
                   <h1>Our gallery won't be revealed until after the public sale has ended, but until then, here's a sneak peek!</h1>
                   {supply === 0? (
-                    <h1>There is not minted Mishka yet! Please be the first one!</h1>
+                    <h1>There is not minted Ugly yet! Please be the first one!</h1>
                   ) : 
                   <div className="row">
                       {Array.from(Array(supply).keys()).map(idx => 

@@ -13,7 +13,7 @@ const timeDiff = (current, end) => {
     let minutes = Math.floor(diff / 60000)
     diff = diff % 60000
     let seconds = Math.floor(diff / 1000)
-    return diff == 0? 'Sale was over!' :  `${days} days ${hours}:${minutes}:${seconds} until all Mishkas are revealed!`
+    return diff == 0? 'Sale was over!' :  `${days} days ${hours}:${minutes}:${seconds} until all Uglys are revealed!`
 }
 
 const SaleProgress = ({clickHandler}) => {
@@ -41,7 +41,7 @@ const SaleProgress = ({clickHandler}) => {
   return (
     <div className="section-progress">
         <div className="text-center container py-4">
-            <button className="btn btn-light" onClick={clickHandler}><b>Buy Mishkas Here</b></button>
+            <button className="btn btn-light" onClick={clickHandler}><b>Buy Uglys Here</b></button>
             <div className="row justify-content-center">
                 <div className="col-lg-10 col-md-11 col-sm-12 text-center">
                     <table className="sale__progress-box">
@@ -73,7 +73,7 @@ const SaleProgress = ({clickHandler}) => {
                         <div className="progress-item">
                             <img src={icon_star}/>
                             <span>Unique artwork</span>
-                            <p>Each Mishkas has a unique style combination with no two artwork that are alike</p>
+                            <p>Each Uglys has a unique style combination with no two artwork that are alike</p>
                         </div>
                     </div>
                     <div className="col-lg-4">

@@ -50,7 +50,7 @@ const Header = ({home = false}) => {
             </div>
             <br></br>
             <div className="header-description">
-                <p className="text-1">Mishkas</p>
+                <p className="text-1">Uglys</p>
             </div>
             <div className="header-description">
                 <p className="text-2"><span>Collection of 10,000 unique NFTs.</span></p>
